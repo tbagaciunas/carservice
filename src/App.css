@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
   display: flex;
-  flex-direction: column;
+  width: 100%;
+  max-width: 80rem;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar__item {
+  max-width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  padding: 0.25rem 1.25rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar__list {
+  display: inline-flex;
+}
+
+.nav_logo {
+  height: 1.5rem;
+  display: inline-block;
+  max-width: 100%;
+  margin-left: 320px;
+}
+
+.navbar__link {
+  color: var(--black, #1e1b1b);
+  font-size: 16px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.assitance {
+  display: flex;
+
+  align-items: center;
+}
+
+.phone-text .number {
+  font-size: 16px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  opacity: 0.699999988079071;
+}
+
+.road {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin: 1rem;
+}
+
+/* home */
+
+.home-container {
+  width: 100%;
+  max-width: 80rem;
 }
