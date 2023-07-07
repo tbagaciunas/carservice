@@ -149,6 +149,77 @@ function Home() {
           </p>
         </div>
       </div>
+      <div className="getintouch-section">
+        <img className="getintouch-img" src="getintouch1.png" alt="getin"></img>
+        <img
+          className="getintouch-img"
+          src="getintouch2.png"
+          alt="getin2"
+        ></img>
+        <div className="box-card">
+          <h3>Get in touch with us for your service related query</h3>
+          <Button text="Contact us" />
+        </div>
+      </div>
+      <div className="counter-section">
+        <h2 className="counter">
+          20+<p>Proffesional</p>
+        </h2>
+
+        <h2 className="counter">
+          10+<p>Years Eperience</p>
+        </h2>
+        <h2 className="counter">
+          12K+<p>Years Eperience</p>
+        </h2>
+        <h2 className="counter">
+          100%<p>Customer Satisfaction</p>
+        </h2>
+      </div>
+      <div className="brands-section">
+        <h3>Brands we Serve</h3>
+        <div class="image-grid">
+          <img src="logoipsum.svg" alt="Image 1"></img>
+          <img src="logoipsum.svg" alt="Image 1"></img>
+          <img src="logoipsum.svg" alt="Image 1"></img>
+          <img src="logoipsum.svg" alt="Image 1"></img>
+          <img src="logoipsum.svg" alt="Image 1"></img>
+          <img src="logoipsum.svg" alt="Image 1"></img>
+          <img src="logoipsum.svg" alt="Image 1"></img>
+          <img src="logoipsum.svg" alt="Image 1"></img>
+          <img src="logoipsum.svg" alt="Image 1"></img>
+          <img src="logoipsum.svg" alt="Image 1"></img>
+        </div>
+      </div>
+      <div className="customers-section">
+        <h3>Our customers say the nicest things about our service</h3>
+        <div className="customer-cards-container">
+          <div className="customer-card">
+            <h4>
+              {" "}
+              <img src="jonathan.png" alt="jonathan"></img>Jonathan Vallem
+            </h4>
+            <h5>New York</h5>
+            <p>
+              I have got my car repaired at Finsweet many times before, they are
+              good at what they do. Not only did they repair my car in a short
+              comprehensive look on all the working
+            </p>
+          </div>
+          <div className="customer-card">
+            <h4>
+              {" "}
+              <img src="jonathan.png" alt="jonathan"></img>Jonathan Vallem
+            </h4>
+            <h5>New York</h5>
+            <p>
+              I have got my car repaired at Finsweet many times before, they are
+              good at what they do. Not only did they repair my car in a short
+              comprehensive look on all the working
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
