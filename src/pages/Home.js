@@ -1,6 +1,8 @@
 import React from "react";
 import "../App.css";
 import Button from "../components/Button";
+import MinusButton from "../components/MinusButton";
+import PlusButton from "../components/PlusButton";
 
 function Home() {
   return (
@@ -218,6 +220,34 @@ function Home() {
               comprehensive look on all the working
             </p>
           </div>
+        </div>
+      </div>
+      <div className="faq-section">
+        <h3>Frequently Asked Questions</h3>
+        <div className="question-card">
+          <MinusButton />
+          <h5>How long should a car repair take?</h5>
+          <p>
+            I have got my car repaired at Finsweet many times before, they are
+            good at what they do. Not only did they repair my car I have got my
+            car repaired at Finsweet I have got my car repaired at Finsweet
+          </p>
+        </div>
+        <div className="question-card2">
+          <PlusButton />
+          <h5>How do I schedule my car's appointment ?</h5>
+        </div>
+        <div className="question-card2">
+          <PlusButton />
+          <h5>What are the repair services provided?</h5>
+        </div>
+        <div className="question-card2">
+          <PlusButton />
+          <h5>How do I find auto body shops near me?</h5>
+        </div>
+        <div className="question-card2">
+          <PlusButton />
+          <h5>Genuine spare parts during car repair?</h5>
         </div>
       </div>
     </div>
