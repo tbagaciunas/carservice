@@ -29,26 +29,26 @@ function Home() {
             We are taking car <br></br> servicing seriously
           </h2>
           <div className="services">
-            <h3>
+            <h5>
               {" "}
               <img src="wrench.png" alt="wrench"></img>Convenient service
-            </h3>
+            </h5>
             <p>
               Through True Rich Attended does no end it his mother since real
               had half every him.
             </p>
-            <h3>
+            <h5>
               {" "}
               <img src="mechanic.png" alt="mechanic"></img>Expert mechanics
-            </h3>
+            </h5>
             <p>
               Through True Rich Attended does no end it his mother since real
               had half every him.
             </p>
-            <h3>
+            <h5>
               {" "}
               <img src="pricing.png" alt="pricing"></img>Transparent pricing
-            </h3>
+            </h5>
             <p>
               Through True Rich Attended does no end it his mother since real
               had half every him.
