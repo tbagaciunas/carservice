@@ -954,3 +954,256 @@ h1 {
 .how-section1 .how-section2 img {
   width: 304px;
 }
+
+.provide-section {
+  width: 1280px;
+  height: 773px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 128px;
+  margin-top: 200px;
+}
+
+.steps-left {
+  width: 50%;
+  height: 773px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Align text to the left */
+  padding: 0 87px;
+}
+
+.steps-left h2,
+.steps-left h5,
+.steps-left .quote {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.steps-left .quote {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.steps-left h5 {
+  color: var(--black, #232536);
+  /* Title 02 */
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: -0.72px;
+}
+
+.steps-left h2 {
+  width: 620px;
+}
+
+.overlay {
+  width: 100%;
+  height: 629px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 128px 0;
+}
+
+.image-container {
+  position: relative;
+}
+
+.overlay img {
+  width: calc(1920px / 3);
+  height: 629px;
+  object-fit: cover;
+}
+
+.overlay-mask {
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+}
+
+.img1 {
+  background: rgba(248, 91, 41, 0.9);
+}
+
+.overlay-mask:nth-child(2) {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.overlay-mask:nth-child(3) {
+  background: rgba(116, 67, 202, 0.9);
+}
+
+.overlay-mask:nth-child(1) + .image-content {
+  color: white;
+}
+
+.overlay-mask:nth-child(2) + .image-content {
+  color: white;
+}
+
+.overlay-mask:nth-child(3) + .image-content {
+  color: white;
+}
+
+.image-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.image-content h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.image-content p {
+  font-size: 16px;
+}
+
+.features-section {
+  width: 100%;
+  height: 894px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.features-section h2 {
+  color: var(--black, #1e1b1b);
+  text-align: center;
+  /* Heading (h2) */
+  font-family: Manrope;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 76px;
+  letter-spacing: -1.74px;
+  margin-top: 128px;
+  max-width: 100%;
+  padding: 0 20px;
+}
+
+.features-block {
+  width: 1280px;
+  height: 424px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ebebeb;
+  background: #fff;
+
+  /* DE */
+  box-shadow: 11px 130px 100px 30px rgba(0, 0, 0, 0.02);
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-left: 2px solid #f2f2f2;
+  border-right: 2px solid #f2f2f2;
+}
+
+.feature h3 {
+  color: #000;
+  text-align: center;
+  /* Title 01 */
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.96px;
+  position: relative;
+  margin-top: 176px;
+}
+
+.feature p {
+  color: var(--black, #232536);
+  text-align: center;
+  /* Body (01) */
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 175%;
+  padding: 16px 66px 88px 66px;
+  opacity: 0.6000000238418579;
+  position: relative;
+}
+
+.circle {
+  width: 64px;
+  height: 64px;
+  background-color: #ffdace;
+  margin-top: 88px;
+  border-radius: 50px;
+  position: absolute;
+}
+
+.feature-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.features-section .counter-section {
+  background: #f8f8f8 !important;
+}
+
+.team-section {
+  width: 1280px;
+  height: 1060px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.person {
+  position: relative;
+  width: 405px;
+  height: 432px;
+  margin: 10px;
+}
+
+.person-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.person-box {
+  position: absolute;
+
+  width: 405px;
+  height: 116px;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.person img {
+  max-width: 100%;
+  max-height: 100%;
+}
