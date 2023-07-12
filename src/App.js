@@ -7,7 +7,8 @@ import Services from "./pages/Services";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
-import NavbarBlack from "./NavbarBlack";
+
+import BlogSingle from "./pages/BlogSingle";
 import "./App.css";
 import "./index.css";
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/BlogSingle" element={<BlogSingle />} />
         </Routes>
         <Footer />
       </div>

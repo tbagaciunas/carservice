@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../components/Button";
+import ReadMoreButton from "../components/ReadMoreButton";
 import "../App.css";
 function blog() {
   return (
@@ -14,7 +15,7 @@ function blog() {
             makes and models of cars, no matter the cause. This includes, We
             provide a full range of front end mechanical.
           </p>
-          <Button text="Read more" />
+          <ReadMoreButton path="/BlogSingle" />
         </div>
       </div>
 
