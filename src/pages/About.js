@@ -168,6 +168,18 @@ function About() {
           </div>
         </div>
       </div>
+      <div className="getintouch-section">
+        <img className="getintouch-img" src="getintouch1.png" alt="getin"></img>
+        <img
+          className="getintouch-img"
+          src="getintouch2.png"
+          alt="getin2"
+        ></img>
+        <div className="box-card">
+          <h3>Get in touch with us for your service related query</h3>
+          <Button text="Contact us" />
+        </div>
+      </div>
     </div>
   );
 }
