@@ -21,3 +21,6 @@ This React project involved the meticulous recreation of an entire car service w
 - HTML & CSS: Fundamental web technologies used for layout and styling.
 
 This project serves as a testament to the ability to transform design concepts into a fully functional and visually appealing website.
+
+
+![Project Illustration](service.png)
